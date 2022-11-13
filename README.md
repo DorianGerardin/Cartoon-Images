@@ -36,3 +36,35 @@ Image to process           |           K = 5           |            K = 9       
 ![Taylor Swift's face](images/quantization/face_taylor/face_taylor.png)  | ![Taylor Swift's face (k=5)](images/quantization/face_taylor/face_taylor_k5.png)| ![Taylor Swift's face (k=9)](images/quantization/face_taylor/face_taylor_k9.png) | ![Taylor Swift's face (k=12)](images/quantization/face_taylor/face_taylor_k12.png) | ![Taylor Swift's face (k=15)](images/quantization/face_taylor/face_taylor_k15.png) | ![Taylor Swift's face (k=19)](images/quantization/face_taylor/face_taylor_k19.png) | ![Taylor Swift's face (k=19)](images/quantization/face_taylor/face_taylor_k19.png)
 
 #### 2.  Here are few examples of edge enhancement on quantized images :
+
+
+* **Drake's face :**
+
+Image to process           |           line size = 5           |           line size = 7          | line size = 9 | line size = 11 | Best Image (line size = 9)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![drake's face](images/quantization/face_drake/face_drake_k7.png)   | ![drake's face (ls=5)](images/edges/face_drake/face_drake_ls5.png)| ![drake's face (ls=9)](images/edges/face_drake/face_drake_ls7.png) | ![drake's face (ls=7)](images/edges/face_drake/face_drake_ls9.png) | ![drake's face (ls=11)](images/edges/face_drake/face_drake_ls11.png) | ![drake's face (ls=9)](images/edges/face_drake/face_drake_ls9.png) 
+
+<br>
+
+* **Japan landscape :**
+
+Image to process           |           line size = 5           |           line size = 7          | line size = 9 | line size = 11 | Best Image (line size = 5)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![japan landscape](images/quantization/japan_landscape/japan_landscape_k9.png)   | ![japan landscape (ls=5)](images/edges/japan_landscape/jap_ls5.png)| ![japan landscape (ls=9)](images/edges/japan_landscape/jap_ls7.png) | ![japan landscape (ls=7)](images/edges/japan_landscape/jap_ls9.png) | ![japan landscape (ls=11)](images/edges/japan_landscape/jap_ls11.png) | ![japan landscape (ls=5)](images/edges/japan_landscape/jap_ls5.png) 
+
+<br>
+
+* **A burger :**
+ 
+Image to process           |           line size = 5           |           line size = 7          | line size = 9 | line size = 11 | Best Image (line size = 11)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![burger](images/quantization/burger/burger_k15.png)   | ![burger (ls=5)](images/edges/burger/burger_ls5.png)| ![burger (ls=9)](images/edges/burger/burger_ls7.png) | ![burger (ls=7)](images/edges/burger/burger_ls9.png) | ![burger (ls=11)](images/edges/burger/burger_ls11.png) | ![burger (ls=11)](images/edges/burger/burger_ls11.png) 
+
+<br>
+
+* **Taylor Swift's face :**
+
+Image to process           |           line size = 5           |           line size = 7          | line size = 9 | line size = 11 | Best Image (line size = 9)
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
+![Taylor Swift's face](images/quantization/face_taylor/face_taylor_k19.png)   | ![Taylor Swift's face (ls=5)](images/edges/face_taylor/ts_ls5.png)| ![Taylor Swift's face (ls=9)](images/edges/face_taylor/ts_ls7.png) | ![Taylor Swift's face (ls=7)](images/edges/face_taylor/ts_ls9.png) | ![Taylor Swift's face (ls=11)](images/edges/face_taylor/ts_ls11.png) | ![Taylor Swift's face (ls=9)](images/edges/face_taylor/ts_ls9.png) 
+
