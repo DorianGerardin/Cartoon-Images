@@ -68,3 +68,66 @@ Image to process           |           line size = 5           |           line 
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|
 ![Taylor Swift's face](images/quantization/face_taylor/face_taylor_k19.png)   | ![Taylor Swift's face (ls=5)](images/edges/face_taylor/ts_ls5.png)| ![Taylor Swift's face (ls=9)](images/edges/face_taylor/ts_ls7.png) | ![Taylor Swift's face (ls=7)](images/edges/face_taylor/ts_ls9.png) | ![Taylor Swift's face (ls=11)](images/edges/face_taylor/ts_ls11.png) | ![Taylor Swift's face (ls=9)](images/edges/face_taylor/ts_ls9.png) 
 
+#### 2.  Here are few examples of image cartoonization using White Box Algorithm :
+
+* **Drake's face :**
+
+Image to process           |           Cartoonized Image       
+:-------------------------:|:-------------------------:|
+![drake's face](images/quantization/face_drake/face_drake.png)   | ![drake's face cartoonized](images/WhiteBox%20Cartoon/drake.png)
+
+<br>
+
+* **Taylor Swift's face :**
+
+Image to process           |           Cartoonized Image             
+:-------------------------:|:-------------------------:|
+![Taylor Swift's face](images/quantization/face_taylor/face_taylor.png)   | ![Taylor Swift's face cartoonized](images/WhiteBox%20Cartoon/TS.jpeg)
+
+<br>
+
+* **A burger :**
+
+Image to process           |           Cartoonized Image              
+:-------------------------:|:-------------------------:|
+![Burger](images/quantization/burger/burger.png)   | ![Burger cartoonized](images/WhiteBox%20Cartoon/burger.png)
+
+<br>
+
+* **A Japan landscape :**
+
+Image to process           |           Cartoonized Image              
+:-------------------------:|:-------------------------:|
+![Japan landscape](images/quantization/japan_landscape/japan_landscape.png)   | ![Japan landscape cartoonized](images/WhiteBox%20Cartoon/jap.jpeg)
+
+#### 3.  Comparison between the two methods
+
+* **Drake's face :**
+
+Image to process           |           Traditional method   | Deep Learning method  
+:-------------------------:|:-------------------------:|:-------------------------:|
+![Drake's face](images/quantization/face_drake/face_drake.png)   | ![Drake's face cartoonized](images/edges/face_drake/face_drake_ls9.png) | ![drake's face cartoonized](images/WhiteBox%20Cartoon/drake.png)
+
+<br>
+
+* **Taylor Swift's face :**
+
+Image to process           |           Traditional method   | Deep Learning method    
+:-------------------------:|:-------------------------:|:-------------------------:|
+![Taylor Swift's face](images/quantization/face_taylor/face_taylor.png)   | ![Taylor Swift's face cartoonized](images/edges/face_taylor/ts_ls9.png) | ![Taylor Swift's face cartoonized](images/WhiteBox%20Cartoon/TS.jpeg)
+
+<br>
+
+* **A burger :**
+
+Image to process           |           Traditional method   | Deep Learning method      
+:-------------------------:|:-------------------------:|:-------------------------:|
+![Burger](images/quantization/burger/burger.png)   | ![Burger cartoonized](images/edges/burger/burger_ls11.png) | ![Burger cartoonized](images/WhiteBox%20Cartoon/burger.png)
+
+<br>
+
+* **A Japan landscape :**
+
+Image to process           |           Traditional method   | Deep Learning method      
+:-------------------------:|:-------------------------:|:-------------------------:|
+![Japan landscape](images/quantization/japan_landscape/japan_landscape.png)   | ![Japan landscape cartoonized](images/edges/japan_landscape/jap_ls5.png) | ![Japan landscape cartoonized](images/WhiteBox%20Cartoon/jap.jpeg)
